@@ -1,4 +1,4 @@
-# Implementation of statistical machine learning algorithms in Python
+# Implementation from scratch: (in python)
   1. Perceptron: trained with 700 samples, reached 99.6% validation accuracy with 300 samples.
 
 
