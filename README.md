@@ -1,5 +1,5 @@
 # Implementation from scratch: (in python)
-  1. Perceptron: trained with 700 samples, reached 99.6% validation accuracy with 300 samples.
+  1. Perceptron: trained with 70 samples, reached 99.6% validation accuracy with 30 samples.
 
 
 # other project(final project from CSC546 intro to machinelearning)
