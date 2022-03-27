@@ -1,4 +1,4 @@
-# Implementation from scratch: (in python)
+# Implementation from scratch in python(keep updating):
   ## 1. Perceptron: 
   <br /> trained with 70 samples, reached 99.6% validation accuracy with 30 samples.
   ## 2. NaiveBeyes:
