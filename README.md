@@ -9,7 +9,7 @@
   <br />3. Using Maximum_Likelihood to compute the posterior probability(introduce Laplacian smoothing to avoid zero posterior probability):
   <br /> <img width="457" alt="image" src="https://user-images.githubusercontent.com/83719401/160288235-93060ebc-19ac-406f-adea-0cea496e7ad9.png">
   <br />4. Using posterior Matrix with size(num_dim, max_num_val, num_cls) to store posterior probability
-  <br />5. Inference by multiplying these probabilities get from prior and posterior matrix.
+  <br />5. Inference by multiplying these probabilities we got from the prior and posterior matrix.
   <br /> <img width="424" alt="image" src="https://user-images.githubusercontent.com/83719401/160288348-2d333362-8d75-4cfc-9e8a-c42bcf253ba7.png">
 
    
