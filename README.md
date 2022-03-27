@@ -1,6 +1,8 @@
 # Implementation from scratch: (in python)
   1. Perceptron: trained with 70 samples, reached 99.6% validation accuracy with 30 samples.
   2. NaiveBeyes: using Laplacian smoothing to avoid zero conditional probability.
+    
+    training data:
     <img width="684" alt="image" src="https://user-images.githubusercontent.com/83719401/160287863-b52c92c7-0e85-4451-aba8-567f6392fdc1.png">
 
 
