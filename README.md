@@ -1,7 +1,11 @@
 # Implementation from scratch in python(keep updating):
   ## 1. Perceptron: 
   <br /> trained with 70 samples, reached 99.6% validation accuracy with 30 samples.
-  ## 2. NaiveBeyes:
+  ## 2. knn (kd-tree):
+  ### this is a kd-tree implementation of knn algorithm.
+  ### training data:
+  <br /><img width="630" alt="image" src="https://user-images.githubusercontent.com/83719401/160525348-98927368-cae4-4ca6-be34-d72503295561.png">
+  ## 3. NaiveBeyes:
   ### main procedure:
   <br />1. Using Maximum_Likelihood to compute the prior probability(introduce Laplacian smoothing to avoid zero prior probability): 
   <br /> <img width="324" alt="image" src="https://user-images.githubusercontent.com/83719401/160288157-cb6f83e0-1e86-4774-93f7-24170b8a87d0.png">
