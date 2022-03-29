@@ -23,6 +23,8 @@
   
   ## 4. Logistic Regression
   <br /> trainined with 70 samples by SGD(pick one sample at a time to do gradient decent, Overall time complexity (epoch * NUM_sample)), validated with 30 samples and reached 100% validation accuracy.
+  <br /> <img width="483" alt="image" src="https://user-images.githubusercontent.com/83719401/160667466-78d155f3-6a0c-4823-9d61-7362ff92ecbe.png">
+
 
 
    
