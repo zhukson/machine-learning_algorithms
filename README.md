@@ -20,6 +20,9 @@
   <br /> <img width="424" alt="image" src="https://user-images.githubusercontent.com/83719401/160288348-2d333362-8d75-4cfc-9e8a-c42bcf253ba7.png">
   ### training data:
   <br /> <img width="671" alt="image" src="https://user-images.githubusercontent.com/83719401/160289186-048ff6ea-7404-4f6d-b53f-bff355202fe5.png">
+  
+  ## 4. Logistic Regression
+  <br /> trainined with 70 samples by SGD(pick one sample at a time to do gradient decent, Overall time complexity (epoch * NUM_sample)), validated with 30 samples and reached 100% validation accuracy.
 
 
    
