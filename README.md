@@ -5,7 +5,7 @@
   ### this is a kd-tree implementation of K-nearest Neighbors algorithm.
   ### training data:
   <br /><img width="621" alt="image" src="https://user-images.githubusercontent.com/83719401/160525678-4ec98b78-fe5c-4c2b-b0f5-c2454d09c4f8.png">
-  ### classification result with target [9, 5]:
+  ### classification result with target [9, 5], Num_neighbors = 3:
   <br /><img width="428" alt="image" src="https://user-images.githubusercontent.com/83719401/160525796-48b18c91-7513-458c-9a09-8fcd118f7d71.png">
 
   ## 3. NaiveBeyes:
