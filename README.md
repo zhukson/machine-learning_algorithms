@@ -4,7 +4,10 @@
   ## 2. K-nearest Neighbors (KD-Tree):
   ### this is a kd-tree implementation of K-nearest Neighbors algorithm.
   ### training data:
-  <br /><img width="630" alt="image" src="https://user-images.githubusercontent.com/83719401/160525348-98927368-cae4-4ca6-be34-d72503295561.png">
+  <br /><img width="621" alt="image" src="https://user-images.githubusercontent.com/83719401/160525678-4ec98b78-fe5c-4c2b-b0f5-c2454d09c4f8.png">
+  ### classification result with target [9, 5]:
+  <br /><img width="428" alt="image" src="https://user-images.githubusercontent.com/83719401/160525796-48b18c91-7513-458c-9a09-8fcd118f7d71.png">
+
   ## 3. NaiveBeyes:
   ### main procedure:
   <br />1. Using Maximum_Likelihood to compute the prior probability(introduce Laplacian smoothing to avoid zero prior probability): 
