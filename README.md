@@ -2,7 +2,7 @@
   ## 1. Perceptron: 
   <br /> trained with 70 samples, reached 99.6% validation accuracy with 30 samples.
   ## 2. K-nearest Neighbors (KD-Tree):
-  ### this is a kd-tree implementation which is a high efficiency implementation of K-nearest Neighbors algorithm.
+  <br /> this is a kd-tree implementation which is a high efficiency implementation of K-nearest Neighbors algorithm.
   ### training data:
   <br /><img width="621" alt="image" src="https://user-images.githubusercontent.com/83719401/160525678-4ec98b78-fe5c-4c2b-b0f5-c2454d09c4f8.png">
   ### classification result with target [9, 5], Num_neighbors = 3:
