@@ -1,6 +1,8 @@
 # Implementation from scratch in python(keep updating):
   ## 1. Perceptron: 
-  <br /> trained with 70 samples, reached 99.6% validation accuracy with 30 samples.
+  <br /> <img width="484" alt="image" src="https://user-images.githubusercontent.com/83719401/160784890-70e33b0e-cbfd-4796-b5dd-556d6d1a7494.png">
+  <br /> <img width="486" alt="image" src="https://user-images.githubusercontent.com/83719401/160784987-3ff159ee-ba07-4af6-8467-14f6346bc6a5.png">
+
   ## 2. K-nearest Neighbors (KD-Tree):
   <br /> this is a kd-tree implementation which is a high efficiency implementation of K-nearest Neighbors algorithm.
   ### training data:
