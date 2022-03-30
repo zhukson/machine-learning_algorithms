@@ -1,7 +1,7 @@
 # Implementation from scratch in python(keep updating):
   ## 1. Perceptron: 
-  <br /> <img width="484" alt="image" src="https://user-images.githubusercontent.com/83719401/160784890-70e33b0e-cbfd-4796-b5dd-556d6d1a7494.png">
-  <br /> <img width="486" alt="image" src="https://user-images.githubusercontent.com/83719401/160784987-3ff159ee-ba07-4af6-8467-14f6346bc6a5.png">
+  <br /> <img width="200" alt="image" src="https://user-images.githubusercontent.com/83719401/160784890-70e33b0e-cbfd-4796-b5dd-556d6d1a7494.png">
+  <img width="200" alt="image" src="https://user-images.githubusercontent.com/83719401/160790427-4d78939d-c893-4968-b505-f0704eff4e68.png">
 
   ## 2. K-nearest Neighbors (KD-Tree):
   <br /> this is a kd-tree implementation which is a high efficiency implementation of K-nearest Neighbors algorithm.
