@@ -4,7 +4,7 @@
   <br /> step 1: for each samples in the training set
   <br /> step 2:    if y(wx+b) < 0(which means the inference result is not correct)
   <br /> step 3:       do gradient decent: w <- w - learning_rate * dw(which is y*x) and b <- b - learning_rate * db(which is y)                 
-  <br /> step 4:    repeat step 1 - 3 until there are no error classification samples.
+  <br /> step 4:    repeat step 1 - 3 until there are no error classification samples or reached maximum iterations.
   ### decision boundry sample:
   <br /> <img width="250" alt="image" src="https://user-images.githubusercontent.com/83719401/160784890-70e33b0e-cbfd-4796-b5dd-556d6d1a7494.png">
   <img width="250" alt="image" src="https://user-images.githubusercontent.com/83719401/160790427-4d78939d-c893-4968-b505-f0704eff4e68.png">
