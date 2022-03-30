@@ -1,7 +1,14 @@
 # Implementation from scratch in python(keep updating):
-  ## 1. Perceptron: 
-  <br /> <img width="200" alt="image" src="https://user-images.githubusercontent.com/83719401/160784890-70e33b0e-cbfd-4796-b5dd-556d6d1a7494.png">
-  <img width="200" alt="image" src="https://user-images.githubusercontent.com/83719401/160790427-4d78939d-c893-4968-b505-f0704eff4e68.png">
+  ## 1. Perceptron:
+  ### main procedure:
+  <br /> step 1: for each samples in the training set:
+  <br /> step 2:   if y(wx+b) < 0(which means the inference result is not correct):
+  <br /> step 3:       do gradient decent: w <- w - learning_rate * dw(which is y*x)
+  <br /> step 4:                           b <- b - learning_rate * db(which is y)
+  <br /> step 5:    repeat step 1 - 5 until there are no error classification samples.
+  ### decision boundry sample:
+  <br /> <img width="250" alt="image" src="https://user-images.githubusercontent.com/83719401/160784890-70e33b0e-cbfd-4796-b5dd-556d6d1a7494.png">
+  <img width="250" alt="image" src="https://user-images.githubusercontent.com/83719401/160790427-4d78939d-c893-4968-b505-f0704eff4e68.png">
 
   ## 2. K-nearest Neighbors (KD-Tree):
   <br /> this is a kd-tree implementation which is a high efficiency implementation of K-nearest Neighbors algorithm.
