@@ -1,6 +1,6 @@
 # Implementation from scratch in python(keep updating):
   ## 0. Linear Regression
-  <br /> W = [w1, w2 ..., wn, 1] X = [x1, x2, x3 ..., xm, 1] xi = [xi_1, xi_2, ..., xi_n] where 1 stands for bias b.
+  <br /> W = [w1, w2 ..., wn, b] X = [x1, x2, x3 ..., xm, 1] xi = [xi_1, xi_2, ..., xi_n]
   <br /> loss function:
   <br /><img width="415" alt="image" src="https://user-images.githubusercontent.com/83719401/160980297-52e2bd3d-8620-47a3-9acf-3e05865cdc8a.png">
   <br /> gradient_decent:
