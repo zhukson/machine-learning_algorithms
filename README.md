@@ -1,10 +1,20 @@
 # Implementation from scratch in python(keep updating):
+  ## 0. Linear Regression
+  <br /> loss function:
+  <br /><img width="415" alt="image" src="https://user-images.githubusercontent.com/83719401/160980297-52e2bd3d-8620-47a3-9acf-3e05865cdc8a.png">
+  <br /> gradient_decent:
+  <br /><img width="217" alt="image" src="https://user-images.githubusercontent.com/83719401/160980145-7e7c2ce8-79eb-47b3-8b4b-ed0eeb0eedf2.png">
+  ### sample result:
+  <br /> <img width="300" alt="image" src="https://user-images.githubusercontent.com/83719401/160980024-10604942-b557-4b9d-88eb-3d16100e5b6c.png">
+
   ## 1. Perceptron:
-  ### main procedure:
-  <br /> step 1: for each samples in the training set
-  <br /> step 2:    if y(wx+b) < 0(which means the inference result is not correct)
-  <br /> step 3:       do gradient decent: w <- w - learning_rate * dw(which is y*x) and b <- b - learning_rate * db(which is y)                 
-  <br /> step 4:    repeat step 1 - 3 until there are no error classification samples or reached maximum iterations.
+  <br /> loss function:
+  <br /> <img width="345" alt="image" src="https://user-images.githubusercontent.com/83719401/160980786-a1365709-f269-4d9f-b610-d8f675648c14.png">
+  <br /> step 1:    find all samples satisfied y(wx+b) < 0(which means the inference result is not correct)
+  <br /> step 2:    do gradient decent:
+  <br /> <img width="186" alt="image" src="https://user-images.githubusercontent.com/83719401/160980520-5179544b-e1d9-4230-ac30-75590465e86e.png">
+  <br /> <img width="155" alt="image" src="https://user-images.githubusercontent.com/83719401/160980541-704f25b9-7960-47f6-bb81-7185231886d4.png">
+  <br /> step 3:    repeat step 1 - 2 until there are no error classification samples or reached maximum iterations.
   ### decision boundry sample:
   <br /> <img width="250" alt="image" src="https://user-images.githubusercontent.com/83719401/160784890-70e33b0e-cbfd-4796-b5dd-556d6d1a7494.png">
   <img width="250" alt="image" src="https://user-images.githubusercontent.com/83719401/160790427-4d78939d-c893-4968-b505-f0704eff4e68.png">
@@ -12,7 +22,7 @@
   ## 2. K-nearest Neighbors (KD-Tree):
   <br /> this is a kd-tree implementation which is a high efficiency implementation of K-nearest Neighbors algorithm.
   ### training data:
-  <br /><img width="350" alt="image" src="https://user-images.githubusercontent.com/83719401/160525678-4ec98b78-fe5c-4c2b-b0f5-c2454d09c4f8.png">
+  <br /><img width="350" alt="image" src="https://user-images.githubusercontent.com/83719401/160981478-6ed4cc8b-0bee-4eeb-bd3d-48d295e242d0.png">
   ### classification result with target [9, 5], Num_neighbors = 3:
   <br /><img width="350" alt="image" src="https://user-images.githubusercontent.com/83719401/160525796-48b18c91-7513-458c-9a09-8fcd118f7d71.png">
 
