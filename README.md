@@ -52,7 +52,7 @@
   <br /><img width="100" alt="image" src="https://user-images.githubusercontent.com/83719401/164371301-89a870e6-c1af-4ae0-b3d4-37cbed8f1754.png">
   <br />2. using sobel filter to compute the gradient and gradient direction of the image
   <br /><img width="100" alt="image" src="https://user-images.githubusercontent.com/83719401/164371377-3b736bba-12b3-41e5-8df7-d9e90d0a4f02.png">
-  <br />3. non_maximum suppression to thining the edge 
+  <br />3. non_maximum suppression for thining the edge 
   <br /><img width="100" alt="image" src="https://user-images.githubusercontent.com/83719401/164371463-22cb8fd3-5a64-4a74-95d0-c64cc745ed34.png">
   <br />4. double tresholding to remove noises (t_high = 100, t_low = 40), and set all valid edge to 255 to make the edge more clear.
   <br /> <img width="100" alt="image" src="https://user-images.githubusercontent.com/83719401/164371545-6cbe137f-e013-4459-bb5e-8d1d856c7169.png">
