@@ -45,6 +45,17 @@
   <br /> below is the decision boundry W^T * X = 0:
   <br /> <img width="350" alt="image" src="https://user-images.githubusercontent.com/83719401/160667466-78d155f3-6a0c-4823-9d61-7362ff92ecbe.png">
 
+  ## 5. Canny edge detection
+  <br /> original image of lenna
+  <br /><img width="100" alt="image" src="https://user-images.githubusercontent.com/83719401/164371246-a61048e5-21c5-4795-ab18-8fd93f1bcb6d.png">
+  <br />1. using Gaussian filter to smooth the image (kernel size = 5, sigma = 1.4)
+  <br /><img width="100" alt="image" src="https://user-images.githubusercontent.com/83719401/164371301-89a870e6-c1af-4ae0-b3d4-37cbed8f1754.png">
+  <br />2. using sobel filter to compute the gradient and gradient direction of the image
+  <br /><img width="100" alt="image" src="https://user-images.githubusercontent.com/83719401/164371377-3b736bba-12b3-41e5-8df7-d9e90d0a4f02.png">
+  <br />3. non_maximum suppression to thining the edge 
+  <br /><img width="100" alt="image" src="https://user-images.githubusercontent.com/83719401/164371463-22cb8fd3-5a64-4a74-95d0-c64cc745ed34.png">
+  <br />4. double tresholding to remove noises (t_high = 100, t_low = 40), and set all valid edge to 255 to make the edge more clear.
+  <br /> <img width="100" alt="image" src="https://user-images.githubusercontent.com/83719401/164371545-6cbe137f-e013-4459-bb5e-8d1d856c7169.png">
 
 
    
