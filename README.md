@@ -55,6 +55,7 @@
   <br />3. non_maximum suppression for thining the edge 
   <br /><img width="100" alt="image" src="https://user-images.githubusercontent.com/83719401/164371463-22cb8fd3-5a64-4a74-95d0-c64cc745ed34.png">
   <br />4. double tresholding to remove noises (t_high = 100, t_low = 40), and set all valid edge to 255 to make the edge more clear.
+  <br /> using dfs to search the neightbors of all valid edges that passed the high threshold to see if any of the neighbors passed the low threshold.
   <br /> <img width="100" alt="image" src="https://user-images.githubusercontent.com/83719401/164371545-6cbe137f-e013-4459-bb5e-8d1d856c7169.png">
 
 
